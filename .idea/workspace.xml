@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2479da29-69b9-4abe-9b39-dc4476f7ceef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,20 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringReverse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/string_reverse/StringReverse.java">
+      <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReverseStringUserInput.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="340">
+              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -57,8 +47,15 @@
         <option value="$PROJECT_DIR$/src/string_reverse/StringReverse.java" />
         <option value="$PROJECT_DIR$/src/string_reverse/StringReverseWithoutLenghtMethod.java" />
         <option value="$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java" />
+        <option value="$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
@@ -90,7 +87,7 @@
               <item name="JavaInterviewPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaInterviewPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="string_reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="palindrome_number" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,20 +114,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseStringUserInput">
-    <configuration name="PrimeNumberMethodCallBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prime_number.PrimeNumberMethodCallBack" />
+  <component name="RunManager" selected="Application.PalindromeNumber">
+    <configuration name="PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="palindrome_number.PalindromeNumber" />
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prime_number.*" />
+          <option name="PATTERN" value="palindrome_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PrimeNumberUsingClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prime_number.PrimeNumberUsingClass" />
+    <configuration name="PrimeNumberMethodCallBack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prime_number.PrimeNumberMethodCallBack" />
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -215,19 +212,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PrimeNumberUsingClass" />
       <item itemvalue="Application.PrimeNumberMethodCallBack" />
       <item itemvalue="Application.StringReverse" />
       <item itemvalue="Application.StringReverseWithoutLenghtMethod" />
       <item itemvalue="Application.ReverseStringUserInput" />
+      <item itemvalue="Application.PalindromeNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeNumber" />
         <item itemvalue="Application.ReverseStringUserInput" />
         <item itemvalue="Application.StringReverseWithoutLenghtMethod" />
         <item itemvalue="Application.StringReverse" />
         <item itemvalue="Application.PrimeNumberMethodCallBack" />
-        <item itemvalue="Application.PrimeNumberUsingClass" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524814712967</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="String reverse by taking the input from the user">
+      <created>1524817798734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1524817798734</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -291,15 +295,15 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="right" id="Maven Projects" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32843137" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -321,12 +325,17 @@
     <MESSAGE value="String Reverse" />
     <MESSAGE value="String Reverse comment" />
     <MESSAGE value="String Reverse input string" />
-    <option name="LAST_COMMIT_MESSAGE" value="String Reverse input string" />
+    <MESSAGE value="String reverse by taking the input from the user" />
+    <option name="LAST_COMMIT_MESSAGE" value="String reverse by taking the input from the user" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/prime_number/PrimeNumber.java">
@@ -371,17 +380,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string_reverse/StringReverse.java">
+    <entry file="file://$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="374">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java">
+    <entry file="file://$PROJECT_DIR$/src/string_reverse/StringReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="255">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
         </state>
       </provider>
     </entry>
