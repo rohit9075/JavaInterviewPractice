@@ -32,6 +32,8 @@ public class PrimeNumberMethodCallBack {
 
     }
 
+    // prime number method definition
+
     public boolean isPrime(int n) {
         if (n <= 1) {
             return false;
