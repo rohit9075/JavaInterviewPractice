@@ -4,9 +4,11 @@ package string_reverse;
  */
 
 public class StringReverse {
-
+     // Driver main method
     public static void main(String[] args) {
-        String name = "abcdefg";
+        // String input
+        String name = "rohit kumar";
+        // char array to store the string so we can read the char in the reverse order one by one.
         char[] charName = name.toCharArray();
 
         /*
@@ -16,8 +18,9 @@ public class StringReverse {
         but in the array indexing start from the 0 so last index is 6 .
         reason that we have to subtract 1.
          */
-
+        // Reading the char from the char array in reverse order.
         for (int i = charName.length - 1; i>=0; i--) {
+            // printing char one by one.
             System.out.print(charName[i]);
         }
     }
