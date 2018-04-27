@@ -12,7 +12,7 @@ public class PrimeNumber {
         // Sample input to check is it prime or no
         int n=4;
         // divide the number by 2 , it makes program more efficient
-        // eg - iterate the for loop upto half of the number
+        // eg - After the reaching to the half no need for further checking.
         m=n/2;
 
         // checking the number is 0 or 1 - both are not a prime number
@@ -24,7 +24,7 @@ public class PrimeNumber {
                 // checking the number is divisible by 2 or more or not
                 if(n%i==0){
                     // if divisible then it is not a prime number
-                    System.out.println(n+" is not prime number");
+                    System.out.println(n +" is not prime number");
                     // setting the flag to check the status of the number mean it is prime or not.
                     flag=1;
                     break;

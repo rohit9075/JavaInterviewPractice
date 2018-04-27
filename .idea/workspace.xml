@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2479da29-69b9-4abe-9b39-dc4476f7ceef" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prime_number/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/prime_number/PrimeNumber.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PalindromeNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+            <state relative-caret-position="391">
+              <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/prime_number/PrimeNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -39,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/prime_number/PrimeNumber.java" />
         <option value="$PROJECT_DIR$/src/prime_number/PrimeNumberUsingMethod.java" />
         <option value="$PROJECT_DIR$/src/prime_number/PrimeNumberTest.java" />
         <option value="$PROJECT_DIR$/src/prime_number/PrimeNumberUsingClass.java" />
@@ -48,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/string_reverse/StringReverseWithoutLenghtMethod.java" />
         <option value="$PROJECT_DIR$/src/string_reverse/ReverseStringUserInput.java" />
         <option value="$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java" />
+        <option value="$PROJECT_DIR$/src/prime_number/PrimeNumber.java" />
       </list>
     </option>
   </component>
@@ -87,7 +96,7 @@
               <item name="JavaInterviewPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaInterviewPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="palindrome_number" type="462c0819:PsiDirectoryNode" />
+              <item name="prime_number" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524817798734</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Palindrome number">
+      <created>1524828178253</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1524828178253</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -301,7 +317,7 @@
       <window_info anchor="bottom" id="Terminal" weight="0.32843137" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" />
@@ -326,7 +342,8 @@
     <MESSAGE value="String Reverse comment" />
     <MESSAGE value="String Reverse input string" />
     <MESSAGE value="String reverse by taking the input from the user" />
-    <option name="LAST_COMMIT_MESSAGE" value="String reverse by taking the input from the user" />
+    <MESSAGE value="Palindrome number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -338,13 +355,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/prime_number/PrimeNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/prime_number/PrimeNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -396,8 +406,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/palindrome_number/PalindromeNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="8" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+        <state relative-caret-position="391">
+          <caret line="48" column="12" lean-forward="true" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/prime_number/PrimeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
