@@ -1,9 +1,10 @@
 package prime_number;
+
 /*
 
  */
 class PrimeNumberTest {
-      // primeNumber method declaration
+    // primeNumber method declaration
     public void primeNumber(int number) {
         // variable declaration
         int i, m = 0, flag = 0;

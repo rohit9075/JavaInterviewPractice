@@ -11,14 +11,14 @@ public class ReverseStringUserInput {
     public static void main(String[] args) {
         // String input
 
-     // printing the message to user
+        // printing the message to user
         System.out.println("Please Enter the String to Reverse");
         // scanner object to take input from the user
         Scanner input = new Scanner(System.in);
         // storing the input string in name variable.
-        String name  = input.nextLine();
-       // printing the message on console
-        System.out.println("Original String :  " + name );
+        String name = input.nextLine();
+        // printing the message on console
+        System.out.println("Original String :  " + name);
 
         // ReverseString Method call
         reverseString(name);
@@ -40,7 +40,7 @@ public class ReverseStringUserInput {
          */
         // Reading the char from the char array in reverse order.
         System.out.print("Reverse String : ");
-        for (int i = charName.length - 1; i>=0; i--) {
+        for (int i = charName.length - 1; i >= 0; i--) {
             // printing char one by one.
             System.out.print(charName[i]);
         }

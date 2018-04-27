@@ -7,21 +7,21 @@ It can also be a string like LOL, MADAM etc.
 
 public class PalindromeNumber {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
         // variable declaration
-        int r,sum=0,temp;
+        int r, sum = 0, temp;
 
         // Sample input number
-        int n=454;
-       // Temporary variable to perform operation on original number.
-        temp=n;
+        int n = 454;
+        // Temporary variable to perform operation on original number.
+        temp = n;
 
         //  Iterating the loop till number is 0
-        while(n>0){
+        while (n > 0) {
             // getting remainder
-            r=n%10;
-            sum=(sum*10)+r;
-            n=n/10;
+            r = n % 10;
+            sum = (sum * 10) + r;
+            n = n / 10;
           /*
           First Iteration : r = 151 % 10  -------> 1
                          sum = 0*10 + 1 ---------> 1
@@ -44,9 +44,9 @@ public class PalindromeNumber {
         }
         // checking the both number is equal or not
         // if equal it palindrome number else not
-        if(temp==sum)
+        if (temp == sum)
             System.out.println(temp + " : palindrome number ");
         else
-            System.out.println(temp +  " : not palindrome");
+            System.out.println(temp + " : not palindrome");
     }
 }

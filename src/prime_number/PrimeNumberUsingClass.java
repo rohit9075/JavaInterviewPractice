@@ -18,8 +18,8 @@ public class PrimeNumberUsingClass{
             PrimeNumberTest primeNumberTest = new PrimeNumberTest();
             // prime number method call with the help of primeNumberTest object
             primeNumberTest.primeNumber(number);
-           // for loop for printing the  ***** line break
-            for (int i = 0; i <20 ; i++) {
+            // for loop for printing the  ***** line break
+            for (int i = 0; i < 20; i++) {
                 System.out.print("******");
             }
             // simply breaking the line

@@ -10,21 +10,19 @@ public class NumberSwapping {
         // Variable declaration
         int mFirstNumber, mSecondNumber;
         // variable Initialization
-         mFirstNumber = 10;
-         mSecondNumber = 20;
+        mFirstNumber = 10;
+        mSecondNumber = 20;
 
-         // Printing the number to console before swapping
-        System.out.println("Before Swapping " + mFirstNumber + "  " +  mSecondNumber);
+        // Printing the number to console before swapping
+        System.out.println("Before Swapping " + mFirstNumber + "  " + mSecondNumber);
 
-         int temp;
+        int temp;
 // swapping the number using temp variable
-         temp = mFirstNumber;
-         mFirstNumber = mSecondNumber;
-         mSecondNumber = temp;
+        temp = mFirstNumber;
+        mFirstNumber = mSecondNumber;
+        mSecondNumber = temp;
 // printing the number to console after Swapping
-        System.out.println("After Swapping : "+ mFirstNumber + "  "  +  mSecondNumber);
-
-
+        System.out.println("After Swapping : " + mFirstNumber + "  " + mSecondNumber);
 
 
     }
