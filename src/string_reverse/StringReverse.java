@@ -7,7 +7,7 @@ public class StringReverse {
      // Driver main method
     public static void main(String[] args) {
         // String input
-        String name = "rohit kumar";
+        String name = "SAMPLE INPUT";
         // char array to store the string so we can read the char in the reverse order one by one.
         char[] charName = name.toCharArray();
 
