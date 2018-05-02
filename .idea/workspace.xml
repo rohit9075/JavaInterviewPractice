@@ -152,7 +152,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PatternSecond">
+  <component name="RunManager" selected="Application.PatternThird">
     <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fibonacci_series.FibonacciSeries" />
       <module name="JavaInterviewPractice" />
@@ -197,13 +197,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RepeatElementUsingCountArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repeat_element.RepeatElementUsingCountArray" />
+    <configuration name="PatternThird" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="star_pattern.PatternThird" />
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="repeat_element.*" />
+          <option name="PATTERN" value="star_pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -250,19 +250,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RepeatElementUsingCountArray" />
       <item itemvalue="Application.FibonacciSeries" />
       <item itemvalue="Application.FibonacciUsingRecursion" />
       <item itemvalue="Application.PatternFirst" />
       <item itemvalue="Application.PatternSecond" />
+      <item itemvalue="Application.PatternThird" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternThird" />
         <item itemvalue="Application.PatternSecond" />
         <item itemvalue="Application.PatternFirst" />
         <item itemvalue="Application.FibonacciUsingRecursion" />
         <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.RepeatElementUsingCountArray" />
       </list>
     </recent_temporary>
   </component>
