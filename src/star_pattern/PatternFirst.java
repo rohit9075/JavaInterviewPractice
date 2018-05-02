@@ -11,19 +11,16 @@ Java program to print the Star pattern like -
 public class PatternFirst {
 
     // Function to demonstrate printing pattern
-    private static void printStars(int n)
-    {
+    private static void printStars(int n) {
         int i, j;
 
         // outer loop to print number of rows
         //  n in this case
-        for(i=0; i< n; i++)
-        {
+        for (i = 0; i < n; i++) {
 
             //  inner loop to handle number of columns
             //  values changing according  to outer loop
-            for(j=0; j<=i; j++)
-            {
+            for (j = 0; j <= i; j++) {
                 // printing stars
                 System.out.print("* ");
             }
@@ -34,8 +31,7 @@ public class PatternFirst {
     }
 
     // Driver Function
-    public static void main(String args[])
-    {
+    public static void main(String args[]) {
         int n = 5;
         // printStars method call
         printStars(n);
