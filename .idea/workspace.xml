@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternFourth.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/star_pattern/PatternFourth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciSeries.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciUsingRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciUsingRecursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/NumberSwapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/NumberSwapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/NumberSwappingUsingUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/NumberSwappingUsingUserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/SwappingNumberWithoutUsingThirdVariable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/number_swapping/SwappingNumberWithoutUsingThirdVariable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/palindrome_number/PalindromeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/palindrome_number/PalindromeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/palindrome_number/PalindromeNumberUsingUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/palindrome_number/PalindromeNumberUsingUserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberMethodCallBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberMethodCallBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberUsingClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberUsingClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberUsingMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/prime_number/PrimeNumberUsingMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/repeat_element/RepeatElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/repeat_element/RepeatElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/repeat_element/RepeatElementUsingCountArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/repeat_element/RepeatElementUsingCountArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternSecond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternSecond.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternThird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternThird.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/ReverseStringUserInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/ReverseStringUserInput.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/star_pattern/PatternFifth.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PatternFourth.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PatternFourth.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFourth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PatternFirst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFirst.java">
+      <file leaf-file-name="PatternFifth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFifth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="9" />
+            <state relative-caret-position="170">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -71,6 +48,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/star_pattern/PatternFourth.java" />
+        <option value="$PROJECT_DIR$/src/star_pattern/PatternFifth.java" />
       </list>
     </option>
   </component>
@@ -140,7 +118,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PatternFifth">
+    <configuration name="PatternFifth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="star_pattern.PatternFifth" />
+      <module name="JavaInterviewPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="star_pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="PatternFourth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="star_pattern.PatternFourth" />
       <module name="JavaInterviewPractice" />
@@ -193,8 +182,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Application.PatternFourth" />
+      <item itemvalue="Application.PatternFifth" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternFifth" />
         <item itemvalue="Application.PatternFourth" />
       </list>
     </recent_temporary>
@@ -210,12 +204,20 @@
       <option name="presentableId" value="Default" />
       <updated>1526288909989</updated>
       <workItem from="1526288911513" duration="46000" />
-      <workItem from="1526441404961" duration="272000" />
+      <workItem from="1526441404961" duration="517000" />
     </task>
+    <task id="LOCAL-00001" summary="Number pattern Printing">
+      <created>1526441710154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526441710154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="318000" />
+    <option name="totallyTimeSpent" value="563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -235,14 +237,14 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -256,6 +258,15 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Number pattern Printing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number pattern Printing" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/fibonacci_series/FibonacciSeries.java">
@@ -288,15 +299,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="9" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFourth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/star_pattern/PatternFifth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
