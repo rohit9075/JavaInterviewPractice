@@ -1,3 +1,5 @@
+package finding_max_number;
+
 public class MaxNoInArray {
 
     // Bubble sort method to sort the given array in increasing order.
