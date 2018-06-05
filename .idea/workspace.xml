@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/armstrong_number/Armstrong.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/MaxNoInArray.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,6 +83,7 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,7 +100,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -124,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Armstrong">
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="armstrong_number.Armstrong" />
       <module name="JavaInterviewPractice" />
@@ -132,6 +130,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="armstrong_number.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorial_of_given_number.Factorial" />
+      <module name="JavaInterviewPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorial_of_given_number.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,17 +163,6 @@
     </configuration>
     <configuration name="PatternSeventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="star_pattern.PatternSeventh" />
-      <module name="JavaInterviewPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="star_pattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PatternSixth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="star_pattern.PatternSixth" />
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -216,19 +214,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PatternSixth" />
       <item itemvalue="Application.PatternSeventh" />
       <item itemvalue="Application.PatternSecond" />
       <item itemvalue="Application.MaxNoInArray" />
       <item itemvalue="Application.Armstrong" />
+      <item itemvalue="Application.Factorial" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Armstrong" />
         <item itemvalue="Application.MaxNoInArray" />
         <item itemvalue="Application.PatternSeventh" />
         <item itemvalue="Application.PatternSecond" />
-        <item itemvalue="Application.PatternSixth" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +250,7 @@
       <workItem from="1527479648109" duration="12000" />
       <workItem from="1527479859517" duration="55000" />
       <workItem from="1527479958561" duration="17000" />
+      <workItem from="1528169729936" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="Number pattern Printing">
       <created>1526441710154</created>
@@ -260,11 +259,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526441710154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Simplified">
+      <created>1528169866094</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528169866094</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4614000" />
+    <option name="totallyTimeSpent" value="4867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -282,7 +288,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.28441754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498366" visible="true" weight="0.28895614" />
       <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
       <window_info id="Structure" order="1" sideWeight="0.501634" side_tool="true" weight="0.2677761" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -306,8 +312,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Number pattern Printing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Number pattern Printing" />
+    <MESSAGE value="Simplified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simplified" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -407,6 +418,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number_swapping/SwappingNumberWithoutUsingThirdVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
