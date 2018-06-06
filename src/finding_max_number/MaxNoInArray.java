@@ -21,22 +21,22 @@ public class MaxNoInArray {
                 }
     }
 
-    // Printing the max no from the array
-    private void printArray(int arr[])
-    {
-        int n = arr.length;
-
-            System.out.print(arr[n-1]);
-
-    }
-
     // Driver method to test above
     public static void main(String args[])
     {
         MaxNoInArray ob = new MaxNoInArray();
         int arr[] = {64, 34, 25, 12, 22, 11, 90};
         ob.bubbleSort(arr);
-        System.out.print("Max no in the array is : ");
+//        System.out.print("Max no in the array is : ");
         ob.printArray(arr);
+    }
+
+    // Printing the max no from the array
+    private void printArray(int arr[]) {
+        int n = arr.length;
+
+        System.out.println("Maximum number in the array is : " + arr[n - 1]);
+        System.out.println("Minimum number in the array is : " + arr[0]);
+
     }
 }

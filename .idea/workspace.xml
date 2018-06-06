@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/number_swapping/NumberSwappingMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +31,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NumberSwappingMultiplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NumberSwappingMultiplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/number_swapping/NumberSwappingMultiplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwappinNuberUsingBitWiseXor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/number_swapping/SwappinNuberUsingBitWiseXor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxNoInArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -70,11 +87,12 @@
         <option value="$PROJECT_DIR$/src/star_pattern/PatternSixth.java" />
         <option value="$PROJECT_DIR$/src/star_pattern/PatternSeventh.java" />
         <option value="$PROJECT_DIR$/src/MaxNoInArray.java" />
-        <option value="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" />
         <option value="$PROJECT_DIR$/src/armstrong_number/Armstrong.java" />
         <option value="$PROJECT_DIR$/src/factorial_of_given_number/Factorial.java" />
         <option value="$PROJECT_DIR$/src/factorial_of_given_number/FactorialUsingRecursion.java" />
         <option value="$PROJECT_DIR$/src/number_swapping/NumberSwappingMultiplication.java" />
+        <option value="$PROJECT_DIR$/src/number_swapping/SwappinNuberUsingBitWiseXor.java" />
+        <option value="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" />
       </list>
     </option>
   </component>
@@ -122,6 +140,12 @@
               <item name="JavaInterviewPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaInterviewPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="finding_max_number" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaInterviewPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaInterviewPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="number_swapping" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -151,7 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberSwappingMultiplication">
+  <component name="RunManager" selected="Application.MaxNoInArray">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="armstrong_number.Armstrong" />
       <module name="JavaInterviewPractice" />
@@ -190,13 +214,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PatternSeventh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="star_pattern.PatternSeventh" />
+    <configuration name="SwappinNuberUsingBitWiseXor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="number_swapping.SwappinNuberUsingBitWiseXor" />
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="star_pattern.*" />
+          <option name="PATTERN" value="number_swapping.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -243,19 +267,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PatternSeventh" />
       <item itemvalue="Application.MaxNoInArray" />
       <item itemvalue="Application.Armstrong" />
       <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.NumberSwappingMultiplication" />
+      <item itemvalue="Application.SwappinNuberUsingBitWiseXor" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxNoInArray" />
+        <item itemvalue="Application.SwappinNuberUsingBitWiseXor" />
         <item itemvalue="Application.NumberSwappingMultiplication" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.Armstrong" />
-        <item itemvalue="Application.MaxNoInArray" />
-        <item itemvalue="Application.PatternSeventh" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +304,7 @@
       <workItem from="1527479859517" duration="55000" />
       <workItem from="1527479958561" duration="17000" />
       <workItem from="1528169729936" duration="603000" />
-      <workItem from="1528260697153" duration="235000" />
+      <workItem from="1528260697153" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="Number pattern Printing">
       <created>1526441710154</created>
@@ -310,11 +334,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528170275830</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Simplified">
+      <created>1528261000317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528261000317</updated>
+    </task>
+    <task id="LOCAL-00006" summary="swapping of two number">
+      <created>1528261122259</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528261122259</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5452000" />
+    <option name="totallyTimeSpent" value="5719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -322,6 +360,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -329,7 +368,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -347,7 +386,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,7 +398,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Number pattern Printing" />
     <MESSAGE value="Simplified" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplified" />
+    <MESSAGE value="swapping of two number" />
+    <option name="LAST_COMMIT_MESSAGE" value="swapping of two number" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -453,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/factorial_of_given_number/FactorialUsingRecursion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -483,8 +515,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/number_swapping/NumberSwappingMultiplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/number_swapping/SwappinNuberUsingBitWiseXor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
         </state>
       </provider>
     </entry>
