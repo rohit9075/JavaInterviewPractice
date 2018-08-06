@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+Java class to find the number of words in the given string array.
+ */
+
 public class WordCountInString {
 
     public static void main(String args[]) {
