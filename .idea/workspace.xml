@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IntegerReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WordCountInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -80,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IntegerReverse.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IntegerReverse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IntegerReverse.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="459">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordCountInString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WordCountInString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -126,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" />
         <option value="$PROJECT_DIR$/src/CharCountInArray.java" />
         <option value="$PROJECT_DIR$/src/IntegerReverse.java" />
+        <option value="$PROJECT_DIR$/src/WordCountInString.java" />
       </list>
     </option>
   </component>
@@ -199,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntegerReverse">
+  <component name="RunManager" selected="Application.WordCountInString">
     <configuration name="CharCountInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharCountInArray" />
       <module name="JavaInterviewPractice" />
@@ -215,17 +225,6 @@
       <module name="JavaInterviewPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="NumberSwappingMultiplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="number_swapping.NumberSwappingMultiplication" />
-      <module name="JavaInterviewPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="number_swapping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="SwappinNuberUsingBitWiseXor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="number_swapping.SwappinNuberUsingBitWiseXor" />
       <module name="JavaInterviewPractice" />
@@ -236,6 +235,11 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+    </configuration>
+    <configuration name="WordCountInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordCountInString" />
+      <module name="JavaInterviewPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -280,18 +284,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MaxNoInArray" />
-      <item itemvalue="Application.NumberSwappingMultiplication" />
       <item itemvalue="Application.SwappinNuberUsingBitWiseXor" />
       <item itemvalue="Application.CharCountInArray" />
       <item itemvalue="Application.IntegerReverse" />
+      <item itemvalue="Application.WordCountInString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordCountInString" />
         <item itemvalue="Application.IntegerReverse" />
         <item itemvalue="Application.CharCountInArray" />
         <item itemvalue="Application.MaxNoInArray" />
         <item itemvalue="Application.SwappinNuberUsingBitWiseXor" />
-        <item itemvalue="Application.NumberSwappingMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +322,7 @@
       <workItem from="1528169729936" duration="603000" />
       <workItem from="1528260697153" duration="594000" />
       <workItem from="1530944125289" duration="685000" />
-      <workItem from="1533549227636" duration="539000" />
+      <workItem from="1533549227636" duration="1771000" />
     </task>
     <task id="LOCAL-00001" summary="Number pattern Printing">
       <created>1526441710154</created>
@@ -376,11 +380,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530944626111</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Integer reverse">
+      <created>1533549968737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1533549968737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7035000" />
+    <option name="totallyTimeSpent" value="8267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -429,7 +440,8 @@
     <MESSAGE value="swapping of two number" />
     <MESSAGE value="finding minimum number" />
     <MESSAGE value="finding the duplicate char in char array" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the duplicate char in char array" />
+    <MESSAGE value="Integer reverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integer reverse" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -663,8 +675,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IntegerReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="459">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WordCountInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
         </state>
       </provider>
     </entry>
