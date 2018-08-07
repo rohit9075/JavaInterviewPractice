@@ -1,10 +1,13 @@
 import java.util.HashMap;
 import java.util.Map;
 
+// class to count the the similar char in the array and print its number of occurrence
 public class CharCountInArray {
 
+    // java main method - Entry point of the program
     public static void main(String[] args) {
 
+        // sample string input
         String string = "aaabbbcccdddeeefff";
 
         // converting string to char array
