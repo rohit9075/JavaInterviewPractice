@@ -6,6 +6,7 @@ Java class to find the number of words in the given string array.
 
 public class WordCountInString {
 
+    // Entry point of the java program
     public static void main(String args[]) {
 
         Scanner in = new Scanner(System.in);
