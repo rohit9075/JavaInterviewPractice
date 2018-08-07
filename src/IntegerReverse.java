@@ -6,11 +6,13 @@ Java code to reverse the integer number.
 public class IntegerReverse {
 
 
+    // entry point of the java program i.e main method
     public static void main(String[] args) {
 
         int num;
         int reversed = 0;
 
+        // Scanner object creation
         Scanner in = new Scanner(System.in);
 
         // getting the input number.
