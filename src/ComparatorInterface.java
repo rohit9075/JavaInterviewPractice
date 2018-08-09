@@ -1,6 +1,9 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
+
+/*
+ComparatorInterface class to compare the objects and short them.
+ */
 
 public class ComparatorInterface {
 
@@ -54,19 +57,16 @@ class Main {
         ar.add(new ComparatorInterface(121, "cccc", "jaipur"));
 
         System.out.println("Unsorted");
-        for (int i = 0; i < ar.size(); i++)
-            System.out.println(ar.get(i));
+        for (ComparatorInterface anAr : ar) System.out.println(anAr);
 
-        Collections.sort(ar, new Sortbyroll());
+        ar.sort(new Sortbyroll());
 
         System.out.println("\nSorted by rollno");
-        for (int i = 0; i < ar.size(); i++)
-            System.out.println(ar.get(i));
+        for (ComparatorInterface anAr : ar) System.out.println(anAr);
 
-        Collections.sort(ar, new Sortbyname());
+        ar.sort(new Sortbyname());
 
         System.out.println("\nSorted by name");
-        for (int i = 0; i < ar.size(); i++)
-            System.out.println(ar.get(i));
+        for (ComparatorInterface anAr : ar) System.out.println(anAr);
     }
 }
