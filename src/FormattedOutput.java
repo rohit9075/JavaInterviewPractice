@@ -13,5 +13,9 @@ public class FormattedOutput {
 
         // this will print it upto 2 decimal places
         System.out.printf("Formatted with precision: PI = %.2f%n", Math.PI);
+
+        double d = 100.20;
+        // automatically appends zero to the rightmost part of decimal
+        System.out.printf("Formatted to specific width: n = %.4f\n", d);
     }
 }
