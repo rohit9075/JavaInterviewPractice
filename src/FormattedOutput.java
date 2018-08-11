@@ -1,12 +1,12 @@
 import java.text.DecimalFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class FormattedOutput {
 
     public static void main(String[] args) {
-//        Scanner scan = new Scanner(System.in);
 
-//        System.out.println("Enter the number");
-//        int num = scan.nextInt();
 
         int num = 100;
         // printing the int value as it is
@@ -55,5 +55,27 @@ public class FormattedOutput {
         ft = new DecimalFormat("₹  #,###.###");
         System.out.println("formatted income = " + ft.format(income));
 
+
+        /* **************  Formatting dates and parsing using SimpleDateFormat class *************************** */
+
+
+        // Formatting as per given pattern in the argument
+
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/mm/yyyy");
+        String str = simpleDateFormat.format(new Date());
+        System.out.println("formateed date : " + str);
+
+        // parsing a given String
+        str = "02/18/1995";
+        simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy");
+        Date date = null;
+        try {
+            date = simpleDateFormat.parse(str);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        // this will print the date as per parsed string
+        System.out.println("Parsed Date : " + date);
     }
 }
