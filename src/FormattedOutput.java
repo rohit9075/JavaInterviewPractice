@@ -32,5 +32,28 @@ public class FormattedOutput {
         DecimalFormat ft = new DecimalFormat("####");
         System.out.println("Without fraction part: num = " + ft.format(num1));
 
+        // this will print it upto 2 decimal places
+        ft = new DecimalFormat("#.##");
+        System.out.println("Formatted to Give precison: num = " + ft.format(num1));
+
+
+        // automatically appends zero to the rightmost part of decimal
+        // instead of #,we use digit 0
+
+        ft = new DecimalFormat("#.000000");
+        System.out.println("append zero to the right = " + ft.format(num1));
+
+
+        // automatically appends zero to the leftmost of decimal number
+        // instead of #,we use digit 0
+        ft = new DecimalFormat("000000.000000");
+        System.out.println("appent zero to left and right = " + ft.format(num1));
+
+
+        // formatting money in dollars
+        double income = 23456.789;
+        ft = new DecimalFormat("₹  #,###.###");
+        System.out.println("formatted income = " + ft.format(income));
+
     }
 }

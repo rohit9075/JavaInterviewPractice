@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FormattedOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FormattedOutput.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,8 +49,8 @@
       <file leaf-file-name="FormattedOutput.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FormattedOutput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="102">
+              <caret line="48" column="45" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -271,7 +272,7 @@
       <workItem from="1533661871842" duration="394000" />
       <workItem from="1533813831484" duration="1468000" />
       <workItem from="1533835850194" duration="1077000" />
-      <workItem from="1533961856759" duration="1876000" />
+      <workItem from="1533961856759" duration="3463000" />
     </task>
     <task id="LOCAL-00001" summary="Number pattern Printing">
       <created>1526441710154</created>
@@ -434,11 +435,32 @@
       <option name="project" value="LOCAL" />
       <updated>1533963888921</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Formatted output">
+      <created>1533964036451</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1533964036451</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Formatted output">
+      <created>1533964135483</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1533964135483</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Number format using decimal class">
+      <created>1533964424865</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1533964424865</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13777000" />
+    <option name="totallyTimeSpent" value="15364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -494,7 +516,8 @@
     <MESSAGE value="Fizz Buzz problem comments" />
     <MESSAGE value="Comparator Interface" />
     <MESSAGE value="Formatted output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatted output" />
+    <MESSAGE value="Number format using decimal class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Number format using decimal class" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -860,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FormattedOutput.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="102">
+          <caret line="48" column="45" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="45" />
         </state>
       </provider>
     </entry>
