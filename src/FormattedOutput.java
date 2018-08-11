@@ -10,5 +10,7 @@ public class FormattedOutput {
 
         // printing the int value as it is
         System.out.printf("Simple integer x =  %d%n ", num);
+
+
     }
 }
