@@ -11,6 +11,7 @@ public class FormattedOutput {
         // printing the int value as it is
         System.out.printf("Simple integer x =  %d%n ", num);
 
-
+        // this will print it upto 2 decimal places
+        System.out.printf("Formatted with precision: PI = %.2f%n", Math.PI);
     }
 }
