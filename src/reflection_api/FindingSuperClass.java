@@ -14,5 +14,9 @@ public class FindingSuperClass {
         // getting the super class name
         Class<?> sup = c.getSuperclass();
         System.out.println("Class name is : " + sup.getSimpleName());
+
+        // getting the package name
+        Package p = c.getPackage();
+        System.out.println("Package : " + p.getName());
     }
 }
