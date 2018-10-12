@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import javax.swing.JOptionPane;
 /*
 Java code to reverse the integer number.
  */
@@ -11,13 +11,8 @@ public class IntegerReverse {
 
         int num;
         int reversed = 0;
-
-        // Scanner object creation
-        Scanner in = new Scanner(System.in);
-
-        // getting the input number.
-        System.out.println("Please enter the number to reverse");
-        num = in.nextInt();
+        // get the number.
+        num = Integer.parseInt(JOptionPane.showInputDialog("Please enter the number to reverse"));
 
 
         // iterating the loop till 0
@@ -32,7 +27,7 @@ public class IntegerReverse {
         }
 
         // printing the output as reversed number.
-        System.out.println("Reversed number is : " + reversed);
+        JOptionPane.showMessageDialog(null, "Reversed number is : " + reversed );
     }
 
 }
