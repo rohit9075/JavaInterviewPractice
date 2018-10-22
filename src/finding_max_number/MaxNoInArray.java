@@ -4,12 +4,12 @@ public class MaxNoInArray {
 
     // Bubble sort method to sort the given array in increasing order.
     private void bubbleSort(int arr[]) {
-        int n = arr.length;
+        int arrLength = arr.length;
         // for loop for traverse the array from index 0 to last
-        for (int i = 0; i < n - 1; i++)
+        for (int i = 0; i < arrLength - 1; i++)
 
             // for loop to traverse the array upto unsorted array
-            for (int j = 0; j < n - i - 1; j++)
+            for (int j = 0; j < arrLength - i - 1; j++)
                 // Comparing the two value of the successive index.
                 if (arr[j] > arr[j + 1]) {
 

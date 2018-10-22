@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="getting the super class name and package name">
+    <list default="true" id="fa2bb475-e1c7-4125-8590-6537e8cd512e" name="Default" comment="fibonacci series">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciSeries.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciSeries.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciUsingRecursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/fibonacci_series/FibonacciUsingRecursion.class" afterDir="false" />
@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternSixth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternSixth.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternThird.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/star_pattern/PatternThird.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaInterviewPractice/string_reverse/StringReverse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fibonacci_series/FibonacciUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fibonacci_series/FibonacciUsingRecursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,14 +64,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1113" />
-          <entry key="txt" value="98" />
+          <entry key="java" value="1122" />
+          <entry key="txt" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1113" />
-          <entry key="PLAIN_TEXT" value="98" />
+          <entry key="JAVA" value="1122" />
+          <entry key="PLAIN_TEXT" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -131,8 +130,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -161,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/factorial_of_given_number/FactorialUsingRecursion.java" />
         <option value="$PROJECT_DIR$/src/number_swapping/NumberSwappingMultiplication.java" />
         <option value="$PROJECT_DIR$/src/number_swapping/SwappinNuberUsingBitWiseXor.java" />
-        <option value="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" />
         <option value="$PROJECT_DIR$/src/WordCountInString.java" />
         <option value="$PROJECT_DIR$/src/IntegerReverse.java" />
         <option value="$PROJECT_DIR$/src/CharCountInArray.java" />
@@ -181,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/reflection_api/FindingSuperClass.java" />
         <option value="$PROJECT_DIR$/src/armstrong_number/Armstrong.java" />
         <option value="$PROJECT_DIR$/src/fibonacci_series/FibonacciUsingRecursion.java" />
+        <option value="$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java" />
       </list>
     </option>
   </component>
@@ -261,7 +260,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/Android/Android_SDK/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540179148127" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540179318122" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -689,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1540178353648</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="fibonacci series">
+      <created>1540179336375</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1540179336375</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -708,7 +714,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.501634" side_tool="true" weight="0.2677761" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3268921" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3268921" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3971061" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -757,7 +763,8 @@
     <MESSAGE value="Enum example using class" />
     <MESSAGE value="Reflection Api" />
     <MESSAGE value="getting the super class name and package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="getting the super class name and package name" />
+    <MESSAGE value="fibonacci series" />
+    <option name="LAST_COMMIT_MESSAGE" value="fibonacci series" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1015,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/finding_max_number/MaxNoInArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
