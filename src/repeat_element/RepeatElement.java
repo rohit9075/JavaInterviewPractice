@@ -27,7 +27,7 @@ public class RepeatElement {
         RepeatElement repeat = new RepeatElement();
 
         // integer array
-        int arr[] = {4, 2, 4, 5, 2, 3, 1, 5};
+        int arr[] = {4, 2, 4, 5, 2, 2, 3, 1, 5};
 
         // Size of the integer array
         int arr_size = arr.length;
