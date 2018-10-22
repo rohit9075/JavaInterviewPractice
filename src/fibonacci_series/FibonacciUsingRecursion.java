@@ -20,8 +20,12 @@ public class FibonacciUsingRecursion {
     public static void main (String args[])
     {
         // integer variable with value 9
-        int n = 9;
+//        int n = 9;
         // printing the final returned value
-        System.out.println(fib(n));
+
+        for (int i = 0; i <= 9; i++) {
+            System.out.println(fib(i));
+        }
+
     }
 }
